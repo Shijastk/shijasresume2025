@@ -1,0 +1,7 @@
+{
+  "name": "Nexus Portfolio - Next-Gen Developer Showcase",
+  "description": "A high-performance, modern developer portfolio featuring smooth animations, interactive skill visualizations, and a Gemini-powered AI assistant for resume queries.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
