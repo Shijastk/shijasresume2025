@@ -19,39 +19,40 @@ import {
 } from 'lucide-react';
 
 export const PERSONAL_INFO = {
-  name: "SHIJAS PALANGAD",
-  role: "Frontend / Full-Stack Developer (React • MERN)",
+  name: "SHIJAS T K",
+  role: "Frontend-focused Full-Stack Developer",
   tagline: "Results-driven Developer building scalable, real-time web solutions.",
-  about: "I am a Full-Stack Developer with hands-on experience building scalable, real-time web applications using React, TypeScript, Node.js, Firebase, and MongoDB. I specialize in designing complex systems, optimizing performance, and delivering production-ready solutions for startups and enterprises. My focus is on clean architecture, UX performance, and real-time data systems.",
+  about: "Frontend-focused Full-Stack Developer with 2+ years of hands-on experience building scalable, real-world web applications using React, TypeScript, and modern UI frameworks. Strong experience in AI-powered platforms, resume automation, real-time systems, and event management solutions. Passionate about clean architecture, performance optimization, and user-centric design.",
   email: "shijasmuhammed573@gmail.com",
   phone: "+91 8943435546",
   location: "Calicut, Kerala",
-  github: "https://github.com/Shijastk",
-  linkedin: "https://www.linkedin.com/in/shijas-tk-a17176330/",
+  github: "https://www.github.com/Shijastk",
+  linkedin: "https://www.linkedin.com/in/shijas-tk",
   twitter: "#",
 };
 
 export const SKILLS_CATEGORIES = [
   {
-    title: "Frontend Development",
+    title: "Languages",
     skills: [
-      { name: 'React (Vite)', value: 95 },
+      { name: 'JavaScript (ES6+)', value: 95 },
       { name: 'TypeScript', value: 90 },
-      { name: 'Tailwind CSS', value: 95 },
-      { name: 'Framer Motion & GSAP', value: 85 },
-      { name: 'MUI', value: 85 }
+      { name: 'HTML5', value: 95 },
+      { name: 'CSS3', value: 95 }
     ]
   },
   {
-    title: "Backend",
+    title: "Frontend Interaction",
     skills: [
-      { name: 'Node.js & Express.js', value: 90 },
-      { name: 'REST APIs & JWT', value: 92 },
-      { name: 'Role-Based Access', value: 90 }
+      { name: 'React.js', value: 95 },
+      { name: 'Vite', value: 90 },
+      { name: 'Tailwind CSS', value: 95 },
+      { name: 'MUI', value: 85 },
+      { name: 'Framer Motion', value: 85 }
     ]
   },
   {
-    title: "Database & Real-Time",
+    title: "Backend & APIs",
     skills: [
       { name: 'MongoDB', value: 90 },
       { name: 'Firebase Firestore', value: 88 },
@@ -60,8 +61,9 @@ export const SKILLS_CATEGORIES = [
     ]
   },
   {
-    title: "Tools & DevOps",
+    title: "State & Tools",
     skills: [
+      { name: 'Redux Toolkit', value: 85 },
       { name: 'Git & GitLab', value: 90 },
       { name: 'Axios', value: 95 },
       { name: 'Cloudinary', value: 85 }
@@ -74,21 +76,34 @@ export const SKILLS_DATA = SKILLS_CATEGORIES.flatMap(cat => cat.skills);
 
 export const PROJECTS = [
   {
+    title: "AI-Powered Resume Builder",
+    description: "Flagship Project | Smart Resume Automation Platform. Developed a fully functional AI-powered resume builder allowing users to generate ATS-optimized resumes. Features direct email sending and customizable layouts.",
+    tags: ["React", "TypeScript", "Gemini AI", "Tailwind CSS"],
+    image: "/assets/projects/ai_resume.png",
+    iframe: "https://ai-powerd-resume-builder.vercel.app/",
+    link: "https://ai-powerd-resume-builder.vercel.app/",
+    GIT: "https://github.com/Shijastk/ai-powerd-resume-builder",
+    icon: <Rocket className="w-6 h-6" />,
+    features: ["Gemini AI Integration", "ATS Optimization", "Direct Email"]
+  },
+  {
     title: "SkillSwap",
     description: "A gamified peer-to-peer skill exchange platform enabling users to trade expertise. Features a smart matching engine, XP-based leveling, virtual currency ('Skillcoins'), and real-time video lessons.",
     tags: ["React", "MERN", "Socket.io", "Jitsi", "Tailwind"],
     image: "/assets/projects/skillswap.png",
     iframe: "https://skillsync-frontend-theta.vercel.app/",
+    GIT: "https://github.com/Shijastk/skillsync_frontend",
     link: "https://skillsync-frontend-theta.vercel.app/",
     icon: <Share2 className="w-6 h-6" />,
     features: ["Gamified Economy", "Real-time Messaging", "Smart Matching"]
   },
   {
-    title: "Intensia Admin Pro",
+    title: "Intensia Arts Fest",
     description: "Real-time arts festival management automation system. Replaced paper workflows with digital judging, live score updates, automated certificate generation, and a public results portal.",
     tags: ["React", "Firebase", "TypeScript", "jsPDF", "Real-time"],
     image: "/assets/projects/intensia.png",
     iframe: "https://intensia-arts-fest.vercel.app/",
+    GIT: "https://github.com/Shijastk/intensia-arts-fest",
     link: "https://intensia-arts-fest.vercel.app/",
     icon: <Award className="w-6 h-6" />,
     features: ["Live Leaderboard", "Role-Based Dashboards", "Automated Scoring"]
@@ -98,6 +113,7 @@ export const PROJECTS = [
     description: "A premium e-commerce platform featuring a modern product catalog, secure cart and checkout flows, and an admin dashboard for inventory management. focuses on aesthetic UI/UX.",
     tags: ["MERN", "Redux", "Stripe", "Dashboard"],
     image: "/assets/projects/ecommerce.png",
+    GIT: "https://github.com/Shijastk/ecommers",
     link: "#",
     icon: <ShoppingCart className="w-6 h-6" />,
     features: ["Secure Checkout", "Inventory Management", "Modern UI"]

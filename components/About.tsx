@@ -5,11 +5,11 @@ import { Timeline } from './ui/timeline';
 export const About: React.FC = () => {
   const journeyData = [
     {
-      title: "2024 - Present",
+      title: "2023 - 2025",
       content: (
         <div className="space-y-6">
           <div className="flex flex-col gap-2">
-            <h4 className="text-xl font-bold text-white">Frontend Developer Intern</h4>
+            <h4 className="text-xl font-bold text-white">Frontend Developer</h4>
             <span className="text-indigo-400 font-semibold">Bistux Solutions Pvt. Ltd.</span>
           </div>
           <p className="text-sm md:text-base text-neutral-400 font-medium leading-relaxed">

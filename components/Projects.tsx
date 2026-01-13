@@ -4,6 +4,7 @@ import { ExternalLink, Github, CheckCircle2 } from 'lucide-react';
 import { PROJECTS } from '../constants';
 
 export const Projects: React.FC = () => {
+  console.log(PROJECTS,"RPKSDFJH")
   return (
     <section id="projects" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
@@ -81,7 +82,7 @@ export const Projects: React.FC = () => {
                   <a href={project.link} className="flex-1 py-3 bg-white text-gray-950 text-center rounded-xl text-xs font-black uppercase tracking-widest hover:bg-indigo-500 hover:text-white transition-all">
                     View Project
                   </a>
-                  <a href="#" className="w-12 h-12 flex items-center justify-center glass rounded-xl text-gray-400 hover:text-white transition-all">
+                  <a href={project.GIT} className="w-12 h-12 flex items-center justify-center glass rounded-xl text-gray-400 hover:text-white transition-all">
                     <Github className="w-5 h-5" />
                   </a>
                 </div>

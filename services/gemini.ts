@@ -30,6 +30,8 @@ export class GeminiService {
       3. If asked about a project, explain the MERN components used.
       4. Always advocate for ${PERSONAL_INFO.name}'s technical ability in building end-to-end solutions.
       5. Keep responses under 100 words unless explaining a complex technical topic.
+      6. IMPORTANT: Do NOT use markdown formatting (like **bold**, *italic*, or ## headers). The chat interface only supports plain text.
+      7. If the user greets you with "Hi", "Hello", or similar short greetings, reply with a SHORT, 1-2 sentence welcome message. Do NOT provide the full bio unless asked.
     `;
 
     try {
